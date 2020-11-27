@@ -203,6 +203,7 @@ textarea {
   .button {
     display: auto;
   }
+  /* removes from mobile version */
   .burger {
     display: none;
   }
