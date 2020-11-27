@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Welcome to Dingo Den</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav>
+		<div class="dropdown">
+			<div class="burger"></div>
+			<div class="burger"></div>
+			<div class="burger"></div>
+			<div class="dropdown-content">
+				<a href="index.html" class="button">Welcome</a>
+				<a href="home.html" class="button">Home</a>
+				<a href="volunteer-donate.html" class="button">Volunteer/Donate</a>
+				<a href="aboutus-more.html" class="button">About us/More</a>
+			</div>
+		</div>
+	</nav>
+
+	<aside>
+		<a href="home.html" class="button">Home</a>
+	</aside>
+
+	<header>
+		<h1> Help Our Cause </h1>
+		<p> Volunteer with us or donate!</p>
+	</header>
+
+	<main>
+		<div class="row">
+			<div class="text">
+				<div class="column">
+					<h2> Volunteer </h2>
+					<p> Dingo Den Animal Rescue is a volunteerbased charity. We run on the efforts of our volunteer groups. </p>
+					<p> If our cause is something you are passionate or interested in, we encourage you to volunteer. </p>
+					<p> Maybe even bring a friend or two </p>
+				</div>
+			</div>
+			<p><b> or </b></p>
+			<div class="text">
+				<div class="column">
+          <h2> Donate </h2>
+					<p> Unable to volunteer but still want to help out? </p>
+					<p> Feel free to donate to Dingo Den, where all proceeds go towards the care and preservation of Australiaʼs Dingoes. </p>
+					<p> Big or small, all donations are appreciated! </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<h2>Fill out this form to volunteer!</h2>
+				<div class="container">
+          <p><b> Your details: </b></p>
+					<label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          <label for="age">Age <i>(Must be atleast 16 years of age to volunteer)</i></label>
+          <select id="age" name="age">
+            <option value="16-20">16-20</option>
+            <option value="21-25">21-25</option>
+            <option value="26-30">26-30</option>
+            <option value="31-35">31-35</option>
+            <option value="36-40">36-40</option>
+            <option value="41-45">41-45</option>
+            <option value="46-50">46-50</option>
+            <option value="51-55">51-55</option>
+            <option value="56-60">56-60</option>
+            <option value="61+">61+</option>
+          </select>
+          <p><b> Contact details: </b></p>
+					<label for="pnumber">Phone Number</label>
+          <input type="text" id="pnumber" name="phonenumber" placeholder="+61...">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email...">
+          <center>
+            <p> Once we recieve your form we will contact you about availabilities, volunteer opportunities, etc. </p>
+            <a href="confirmation.html" class="button">Submit</a>
+          </center>
+        </div>
+      </div>
+      <div class="column">
+        <h2>Fill out this form to donate!</h2>
+		    <div class="container">
+          <p><b> Your details: </b></p>
+					<label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          <p><b> Contact details: </b></p>
+					<label for="pnumber">Phone Number</label>
+          <input type="text" id="pnumber" name="phonenumber" placeholder="+61...">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email...">
+          <p><b> Card details: </b></p>
+          <label for="cardtype">Card Type</label>
+          <select id="cardtype" name="cardtype">
+            <option value="Visa">Visa</option>
+            <option value="Master Card">Master Card</option>
+            <option value="American Express">American Express</option>
+          </select>
+          <label for="cname">Name on Card</label>
+          <input type="text" id="cname" name="cardname" placeholder="Name on card...">
+					<label for="cnumber">Card Number</label>
+          <input type="text" id="cnumber" name="cardnumber" placeholder="Card number...">
+          <label for="scode">Security Code</label>
+          <input type="text" id="scode" name="securitycode" placeholder="Security code...">
+          <center>
+            <p> Processing donations might take a bit, once   recieved on our side we'll send you a text and email! </p>
+            <a href="confirmation.html" class="button">Submit</a>
+          </center>
+        </div>
+      </div>
+    </div>
+	</main>
+
+	<script src="script.js">
+
+	</script>
+</body>
+
+</html>
